@@ -3,7 +3,9 @@
 module.exports = {
   content: ["./homepage/**/*.{html,js}"],
   theme: {
+
     container: {
+      
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
