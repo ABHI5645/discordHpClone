@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nava{
+        @apply hover:underline font-semibold;
+     }
+     .btn-sm{
+       @apply bg-white py-2 px-4 text-black text-lg rounded-3xl font-medium hover:text-primary hover:shadow-lg hover:shadow-black/30 transition duration-300
+     }
+}
