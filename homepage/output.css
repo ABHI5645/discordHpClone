@@ -738,6 +738,19 @@ p{
   }
 }
 
+.btn-signup{
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 78 237 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .absolute{
   position: absolute;
 }
@@ -831,6 +844,10 @@ p{
   width: 100%;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -895,8 +912,21 @@ p{
   row-gap: 1.25rem;
 }
 
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .border-t-2{
   border-top-width: 2px;
+}
+
+.border-t{
+  border-top-width: 1px;
+}
+
+.border-blue-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
 }
 
 .bg-\[\#f6f6f6\]{
@@ -1040,13 +1070,14 @@ p{
   letter-spacing: 0.1em;
 }
 
-.text-\[\"\#5865f2\"\]{
-  color: "#5865f2";
-}
-
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(35 39 42 / var(--tw-text-opacity));
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(64 78 237 / var(--tw-text-opacity));
 }
 
 .text-white{
