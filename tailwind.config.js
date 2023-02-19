@@ -3,6 +3,12 @@
 module.exports = {
   content: ["./homepage/**/*.{html,js}"],
   theme: {
+    fontFamily:{
+      // notosans: ["Noto Sans", "sans-serif"],
+      blackhans: ['Black Han Sans', "sans-serif"],
+      inter:['Inter','sans-serif'],
+      cabin:['Cabin','sans-serif']
+    },
 
     container: {
       
