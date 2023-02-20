@@ -25,6 +25,7 @@
     .nava{
         @apply hover:underline font-semibold;
      }
+     
      .btn {
       @apply py-4 px-8 rounded-full text-base lg:text-lg xl:text-xl hover:shadow-lg hover:shadow-black/20 transition duration-200;
     }
@@ -45,4 +46,6 @@
     .btn-signup{
       @apply bg-primary text-white  py-2 px-4 rounded-3xl font-medium 
     }
+    
+
 }
